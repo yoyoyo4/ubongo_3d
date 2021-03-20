@@ -1,3 +1,5 @@
+# 画像引用元 https://github.com/m-kasahr/ubongo-utils/tree/master/data/3d
+
 # ブロック画像処理
 import cv2, os
 

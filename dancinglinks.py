@@ -1,4 +1,8 @@
 """
+引用元
+https://matsu7874.hatenablog.com/entry/2018/07/15/200000
+https://github.com/matsu7874/polyomino
+
 DancingLinks
 Exact Cover Problemを効率的に解くKnuth's Algorithm Xの効率的な実装
 """

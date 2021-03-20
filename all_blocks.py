@@ -120,6 +120,7 @@ def all_blocks_dict():
 def read_block_list():
     blocks = []
     d = all_blocks_dict()
+    print("使用ブロックを半角スペース区切りで入力してください ex:R1 B3 B3 G2")
     for block_name in list(input().split()):
         blocks.append(d[block_name])
     return blocks

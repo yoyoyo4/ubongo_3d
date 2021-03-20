@@ -94,5 +94,4 @@ def show_blocks(n_question=-1, unique_block=True, n_blocks=-1, return_n_ans=True
 
 
 if __name__ == '__main__':
-    # choose_blocks_and_show_ans(unique_block = True)
     show_blocks(n_question=5, unique_block=True, n_blocks=-1, return_n_ans=True, random_flg=True)
