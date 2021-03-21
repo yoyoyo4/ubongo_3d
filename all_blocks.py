@@ -1,6 +1,6 @@
 # ブロックオブジェクト呼び出し用
 
-import block # ブロックオブジェクト生成用のコード
+import block, block_image
 
 
 # 全ブロックオブジェクトのリスト
@@ -121,8 +121,11 @@ def read_block_list():
     blocks = []
     d = all_blocks_dict()
     print("使用ブロックを半角スペース区切りで入力してください ex:R1 B3 B3 G2")
-    for block_name in list(input().split()):
+    ip = list(input().split())
+    for block_name in ip:
         blocks.append(d[block_name])
+    print("ブロックの画像を別ウィンドウに表示しています。ウィンドウを閉じて続行してください")
+    block_image.show_2d([ip])
     return blocks
 
 # テスト用。全ブロックの形状を出力

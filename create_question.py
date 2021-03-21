@@ -81,6 +81,8 @@ def show_blocks(n_question=-1, unique_block_flg=True, n_blocks=-1, return_n_ans_
         if len(question_and_n_ans) == n_question:
             break
     
+    print("ブロックの画像を別ウィンドウに表示しています。ウィンドウを閉じるとプログラムを終了します")
+
     if return_n_ans_flg:
         for a in question_and_n_ans:
             print(a[0], *a[1])

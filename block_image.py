@@ -43,7 +43,6 @@ def show_2d(block_name_list_2d):
     im_name = "__".join(["_".join(block_name_list) for block_name_list in block_name_list_2d])
     x = concat_tile_resize(block_name_list_2d)
     cv2.imshow(im_name, x)
-    print("ブロックの画像を別ウィンドウに表示しています")
     cv2.waitKey(0) # キーを押すとウィンドウを閉じる
 
 # テスト用
