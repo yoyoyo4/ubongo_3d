@@ -1,1 +1,1 @@
-https://blog.hatena.ne.jp/YON_4/yon4.hatenablog.com/edit?entry=26006613632639947 
+https://yon4.hatenablog.com/entry/2021/03/21/215519
