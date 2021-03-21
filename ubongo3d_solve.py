@@ -34,7 +34,7 @@ def solve(question, blocks, variations, return_all_ans=True):
     result = []
     for ans_id, r in enumerate(sorted(res)):
         ans = [subsets[x] for x in r]
-        result.append(["answer", ans_id + 1])
+        result.append(["解答" + str(ans_id+1)])
         cells = [[['.' for x in range(question.x_size)] for y in range(question.y_size)] for z in range(question.z_size)]
         for a in ans:
             try:
@@ -60,4 +60,4 @@ if __name__ == '__main__':
         for x in test:
             print(*x)
     else:
-        print("no answer")
+        print("解なし")
