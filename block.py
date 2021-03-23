@@ -89,7 +89,7 @@ class Block:
         return True
 
 # ブロックを与えると、全ての回転バージョンのブロックオブジェクトのリストを返す
-# x,y,z軸周りに90,180,270,360度させたパターンを導き、重複を除く。ブロックの対称性もカバーできる
+# x,y,z軸周りの回転を全パターン行い、重複を除く。ブロックの対称性もカバーできる
 def generate_variations(block):
     variations = set()
     for x in range(4):
